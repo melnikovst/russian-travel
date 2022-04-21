@@ -1,0 +1,42 @@
+@font-face {
+    font-family: inter;
+    src: url(./Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.page {
+    font-family: inter;
+    min-width: 1024px;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+}
+
+.main {
+    max-width: calc(1280px - 96px);
+    margin: 28px 48px 48px 48px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid red;
+}
+
+.header__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+}
+
+.header__link_container {
+    margin-bottom: 6px;
+}
+
+.header__link:nth-child(1) {
+    margin-right: 18px;
+    text-decoration: underline;
+}
