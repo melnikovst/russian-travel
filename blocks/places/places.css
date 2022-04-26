@@ -15,13 +15,22 @@
 @media screen and (max-width: 1023px) {
     .places {
         max-width: calc(100% - 48px);
+        padding: 88px 0 90px 0;
+        row-gap: 73px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places {
         padding: 64px 0 64px 0;
-        max-width: 100%;
+        max-width: calc(100% - 32px);
         row-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {   /*прижать картинку к краям*/
+    .places {
+        padding: 64px 0 64px 0;
+        max-width: 100%;
     }
 }

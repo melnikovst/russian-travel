@@ -13,10 +13,16 @@
 @media screen and (max-width: 767px) {
     .places__title {
     max-width: 288px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 35px;
-    margin:0 0 16px 16px;
+    margin: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .places__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        margin:0 0 16px 16px;
     }
 }

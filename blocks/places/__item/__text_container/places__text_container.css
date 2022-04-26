@@ -4,8 +4,3 @@
     row-gap: 27px;
 }
 
-@media screen and (max-width: 767px) {
-    .places__text_container {
-        margin-left: 16px;
-    }
-}

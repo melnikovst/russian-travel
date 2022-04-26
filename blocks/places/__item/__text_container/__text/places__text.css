@@ -9,8 +9,17 @@
     max-height: max-content;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .places__text {
-                max-width: 320px;       
-        }
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .places__text { 
+        margin: 0 16px;
+    }
+}

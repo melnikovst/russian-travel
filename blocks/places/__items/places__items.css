@@ -5,3 +5,21 @@
     display: grid;
     row-gap: 80px;
 }
+
+@media screen and (max-width: 1023px) {
+    .places__items {
+        row-gap: 73px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__items{
+        row-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .places__items { 
+        justify-items: start;
+    }
+}

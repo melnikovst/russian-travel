@@ -3,12 +3,25 @@
     max-width: 100%;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
-    align-items: start;
+}
+
+@media screen and (max-width: 1279px) {
+    .places__item {
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places__item {
+        column-gap: 28px;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .places__item {
         margin: 0;
         grid-template-columns: 1fr;
+        max-width: 500px;
     }
 }
+
