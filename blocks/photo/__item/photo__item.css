@@ -1,0 +1,11 @@
+.photo__item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .photo__item {
+        max-width: 100%;
+    }
+}

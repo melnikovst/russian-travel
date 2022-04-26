@@ -1,0 +1,7 @@
+.header__link_container {
+    margin-bottom: 6px;
+}
+
+.header__link:nth-child(1) {
+    margin-right: 18px;
+}
