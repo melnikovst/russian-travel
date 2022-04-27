@@ -30,7 +30,6 @@
 
 @media screen and (max-width: 450px) {   /*прижать картинку к краям*/
     .places {
-        padding: 64px 0 64px 0;
         max-width: 100%;
     }
 }
