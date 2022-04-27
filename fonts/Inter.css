@@ -2,8 +2,8 @@
     font-family: 'Inter';
     src: local('Inter-Black'),
         local('Inter-Black'),
-        url(./fonts/Inter-Black.woff) format('woff'),
-        url(./fonts/Inter-Black.woff2) format('woff2');
+        url(./Inter-Black.woff) format('woff'),
+        url(./Inter-Black.woff2) format('woff2');
         font-weight: 900;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -32,8 +32,8 @@
     font-family: 'Inter';
     src: local('Inter-Bold'),
         local('Inter-Bold'),
-        url(./fonts/Inter-Bold.woff) format('woff'),
-        url(./fonts/Inter-Bold.woff2) format('woff2');
+        url(./Inter-Bold.woff) format('woff'),
+        url(./Inter-Bold.woff2) format('woff2');
         font-weight: 700;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
