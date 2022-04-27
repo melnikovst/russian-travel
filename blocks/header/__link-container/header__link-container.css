@@ -1,7 +1,6 @@
 .header__link-container {
+    display: flex;
     margin-bottom: 6px;
+    gap: 18px;
 }
 
-.header__link:nth-child(1) {
-    margin-right: 18px;
-}

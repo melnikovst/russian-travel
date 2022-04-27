@@ -19,8 +19,3 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .promo {
-        max-width: 100%;
-    }    
-}
