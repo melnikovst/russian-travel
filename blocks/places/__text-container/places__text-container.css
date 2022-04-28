@@ -2,5 +2,6 @@
     display: grid;
     align-items: start;
     row-gap: 27px;
+    height: max-content;
 }
 
