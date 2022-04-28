@@ -14,3 +14,8 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .cover {
+        max-height: 200px;
+    }
+}

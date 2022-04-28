@@ -7,6 +7,10 @@
     text-align: right;
 }
 
+.header__link:hover {
+    opacity: 0.8;
+}
+
 
 
 @media screen and (max-width: 767px) {
