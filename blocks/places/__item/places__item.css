@@ -1,18 +1,22 @@
 .places__item {
     display: grid;
     max-width: 100%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 460px auto;
     column-gap: 40px;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
     .places__item {
+        grid-template-columns: 440px auto;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .places__item {
+        grid-template-columns: 340px auto;
         column-gap: 28px;
     }
 }
