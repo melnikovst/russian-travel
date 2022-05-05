@@ -1,6 +1,17 @@
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
 .places__image {
     width: 100%;
     object-fit: contain;
+    animation: pulse 0.7s ease-in-out infinite alternate 4s;
+    overflow: visible;
 }
 
 @media screen and (max-width: 767px) {
