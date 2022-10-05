@@ -1,49 +1,38 @@
 .cover__background {
-    text-decoration: none;
-    position: relative;
-    background-color: #2A2C2F;
-    background-image: url(../../../images/__background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 740px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  text-decoration: none;
+  position: relative;
+  background-color: #2a2c2f;
+  background-image: url(../../../images/__background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 740px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .cover__background::before {
-    content: " ";
-    display: block;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #2A2C2F;
-    opacity: 0.3;
-    position: absolute;
+  content: ' ';
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  transition: opacity 0.3s ease;
 }
 
 .cover__background:hover::before {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
-    .cover__background {
-        min-height: calc(100vw * 62.5 / 100);
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .cover__background {
-        min-height: calc(100vw * 62.5 / 100);
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .cover__background {
-        min-height: calc(100vw * 62.5 / 100);
-    }
+  .cover__background {
+    min-height: calc(100vw * 62.5 / 100);
+  }
 }
